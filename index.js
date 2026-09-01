@@ -28,7 +28,7 @@ controls.enableDamping = true;
 const loader = new GLTFLoader();
 
 loader.load(
-    'maps/badwater.glb',
+    './maps/badwater.glb',
 
     (gltf) => {
         const map = gltf.scene;
